@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue"
+           android:id="@+id/tb_activity_upadte_toolbar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+            >
+
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_20"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/firstname"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/text_margin_18"
+
+                />
+
+
+            <EditText
+
+                android:id="@+id/et_activity_upadte_name"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_10" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_21">
+
+            <TextView
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lastname"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_margin_18"
+
+                />
+
+
+            <EditText
+                android:layout_weight="1.3"
+                android:id="@+id/et_activity_upadte_lastname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_10" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_10"
+            android:weightSum="2"
+            android:paddingLeft="@dimen/margin_20">
+
+            <TextView
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/margin_43"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_margin_18"
+
+
+                />
+
+
+            <EditText
+                android:id="@+id/et_activity_upadte_email"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_10"
+
+                />
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/btn_activity_upadte_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>

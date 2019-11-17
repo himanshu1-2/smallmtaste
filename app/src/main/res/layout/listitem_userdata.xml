@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_list_item_user_data_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_5"
+
+    android:layout_marginEnd="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/margin_5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/margin_5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/list_item_user_data_image"
+                android:layout_width="@dimen/margin_90"
+
+                android:layout_height="@dimen/margin_90"
+                android:elevation="5dp"
+                android:padding="@dimen/margin_5"
+                android:src="@mipmap/ic_launcher" />
+
+
+            <TextView
+                android:id="@+id/txt_list_item_user_data_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_toRightOf="@id/list_item_user_data_image"
+                android:maxLines="1"
+                android:text="@string/firstname"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_margin_18"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txt_list_item_user_data_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_list_item_user_data_name"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_toRightOf="@id/list_item_user_data_image"
+                android:text="@string/email"
+                android:textColor="@color/emailcolour"
+                android:textSize="@dimen/text_margin_16"
+                android:textStyle="italic" />
+
+            <Button
+
+                android:id="@+id/btn_list_item_user_data_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_list_item_user_data_email"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/margin_5"
+                android:text="@string/update" />
+
+            <Button
+                android:id="@+id/btn_list_item_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_list_item_user_data_email"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_toLeftOf="@id/btn_list_item_user_data_update"
+                android:text="@string/delete" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

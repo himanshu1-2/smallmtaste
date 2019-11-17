@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Userlist</string>
+    <string name="firstname">First Name</string>
+    <string name="datum">datum</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="updateuser">Update User</string>
+    <string name="userDataid">userdataId</string>
+    <string name="delete">Delete</string>
+    <string name="added">Added</string>
+    <string name="adduser">ADD USER</string>
+    <string name="enterpropername">Enter proper name</string>
+    <string name="enterproperlastname">Enter proper lastname</string>
+    <string name="enterproperemail">Enter proper Email</string>
+    <string name="doyouwanttodeleteleave">Do you want to delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="detail">Detail</string>
+    <string name="firsttimelaunch">firstTimelaunch</string>
+    <string name="deleteflag">deleteflag</string>
+    <string name="updateflag">updateflag</string>
+    <string name="addflag">addflag</string>
+    <string name="position">position</string>
+    <string name="positionflag">postionflag</string>
+    <string name="userDataids">userDataids</string>
+    <string name="positionflags">positionflags</string>
+    <string name="updateflags">updateflags</string>
+    <string name="userData">userData</string>
+    <string name="addcount">addcount</string>
+</resources>

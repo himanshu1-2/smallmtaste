@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="text_margin_20">20sp</dimen>
+
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_58">58dp</dimen>
+    <dimen name="margin_62">62dp</dimen>
+    <dimen name="margin_63" >63dp</dimen>
+    <dimen name="margin_65" >65dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_500">500dp</dimen>
+    <dimen name="margin_350">350dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">50dp</dimen>
+
+
+
+
+
+</resources>

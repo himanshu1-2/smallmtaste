@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Red">#F7DD2C00</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="lightgray">#19D3D3D3</color>
+    <color name="green">#528E38</color>
+    <color name="lightgreen">#64DD17</color>
+    <color name="black">#000000</color>
+    <color name="lightblack">#AB000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#1E00B8D4</color>
+    <color name="instatool">#365c67</color>
+    <color name="darkblue">#0091EA</color>
+    <color name="logingreen">#006466</color>
+    <color name="logind">#3d9760</color>
+    <color name="appgreen">#53c22b</color>
+    <color name="deletecolor">#438d8E</color>
+    <color name="denycolor">#fe2402</color>
+    <color name="approvecolor">#3d9760</color>
+    <color name="orange">#FFAB00</color>
+    <color name="yellow">#C3FFD600</color>
+    <color name="pink">#FFB2D6</color>
+    <color name="emailcolour">#808080</color>
+    <color name="background">#aaaa</color>
+
+    <color name="calenderblue">#0089aa</color>
+</resources>
